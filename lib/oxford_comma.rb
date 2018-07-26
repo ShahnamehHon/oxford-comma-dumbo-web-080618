@@ -7,3 +7,4 @@ else
   conjunction = array.pop
   oxford_comma = array.join(", and").concat("#{conjunction}")
 end
+end
