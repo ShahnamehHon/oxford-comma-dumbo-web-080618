@@ -4,5 +4,6 @@ if array.size == 1
   elsif array.size == 2
   array.join(" and ")
 else
-  conjunction
+  conjunction = array.pop
+  oxford_comma = array.join(", and").concat("#{conjunction}")
 end
